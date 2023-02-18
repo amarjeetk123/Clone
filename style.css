@@ -1,8 +1,12 @@
-.header{
-  
- /* background: url(); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,500;0,700;0,900;1,500;1,600;1,800;1,900&display=swap');
+*{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
 }
 .hover1:hover{
     box-shadow: 1px 1px 10px black;
     transition: .6s;
+}
+li:hover{
+    text-decoration: underline;
 }
