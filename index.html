@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/694a00980e.js" crossorigin="anonymous"></script>
+    <title>Discord</title>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'l': '500px',
+                    'sm': '640px',
+                    'md': '980px',
+                    'lg': '1064px',
+                    'xl': '1480px',
+                    '2xl': '1536px',
+                    'brwidth': '810px',
+                    'get': '1310px',
+                    'nav': '1180px',
+                    'last': '460px',
+                    'foot': '750px'
+                }
+                ,
+                extend: {
+                    colors: {
+                        primary: '#404EED',
+                        darkgreen: "#004c3f",
+                        buttoncolor: "#008060",
+                        blackgreen: "#003427",
+                        crem: "#fbfced"
+
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <header class="header bg-primary py-4">
+        <nav class="flex w-[70%] mx-auto  justify-between py-4">
+            <div>
+                <img src="/assets/98ea5b9e92e304c7d352ac462996adc5.svg" alt="Discord" />
+            </div>
+            <ul class="flex gap-5 text-white">
+                <li class="text-[16px] font-medium cursor-pointer decoration-solid hover:decoration-solid">Download</li>
+                <li class="text-[16px] font-semi-bold">Nitro</li>
+                <li class="text-[18px]">Discover</li>
+                <li class="text-[18px]">Safety</li>
+                <li class="text-[18px]">Support</li>
+                <li class="text-[18px]">Blog</li>
+                <li class="text-[18px]">Careers</li>
+            </ul>
+            <button class="hover1 rounded-[20px] bg-white px-4 text-[16px] py-1 hover:text-primary">
+                Open Discord
+            </button>
+        </nav>
+
+        <section class="flex w-[100%] flex-col items-center">
+            <h1 class="text-[60px] font-black  text-white">IMAGINE A PLACE...</h1>
+            <h1 class="w-[60%] text-[20px] text-center text-white">...where you can belong to a school club, a gaming
+                group, or a worldwide art community. Where just you and a handful of friends can spend time together. A
+                place that makes it easy to talk every day and hang out more often.</h1>
+            <div class="flex gap-10 my-8">
+                <button class=" hover:text-primary bg-white text-black py-3 text-[21px] px-8 rounded-[30px]"> <i class="fa-sharp fa-regular fa-download hover1"></i> Download for Windows</button>
+                <button class=" bg-black text-white py-3 text-[21px] px-8 rounded-[30px] hover:bg-gray-800 hover1"> Open
+                    Discord in your browser </button>
+            </div>
+        </section>
+    </header>
+
+    <section class="flex w-[90%] items-center justify-between py-24">
+        <div class="left">
+            <img src="./images/second-section.svg" alt="A Boy ">
+        </div>
+        <div class="right w-[30%]">
+            <h1 class="text-black text-[48px] font-bold leading-[110%]">Create an invite-only place where you belong
+            </h1>
+            <h1 class="text-black mt-6 text-[18px]">Discord servers are organized into topic-based channels where you
+                can collaborate, share, and just talk about your day without clogging up a group chat.</h1>
+        </div>
+    </section>
+
+
+    <section class="bg-gray-100 py-24">
+        <div class="containt flex w-[90%] mx-auto items-center justify-between">
+            <div class="left w-[30%]">
+                <h1 class="text-black text-[48px] font-bold leading-[110%]">Where hanging out is easy</h1>
+                <h1 class="text-black mt-6 text-[18px]">Grab a seat in a voice channel when you’re free. Friends in your
+                    server can see you’re around and instantly pop in to talk without having to call.</h1>
+            </div>
+            <div class="right">
+                <img src="./images/third-section.svg" alt="A Boy ">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="flex w-[90%] items-center justify-between py-24">
+        <div class="containt flex w-[90%] mx-auto items-center justify-between">
+
+            <div class="left">
+                <img src="./images/fourth-section.svg" alt="A Boy ">
+            </div>
+            <div class="right w-[30%]">
+                <h1 class="text-black text-[48px] font-bold leading-[110%]">From few to a fandom</h1>
+                <h1 class="text-black mt-6 text-[18px]">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</h1>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="bg-gray-100 py-24">
+        <div class="containt flex flex-col w-[90%] mx-auto items-center justify-between">
+          <h1 class="text-[46px] text-center font-black">RELIABLE TECH FOR STAYING CLOSE</h1>
+          <h1 class="text-[24px] text-center font-light my-4">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.
+        </h1>
+        <img src="./images/fifth-section.svg" alt="">
+        <div>
+            <h1 class="text-[32px] font-bold my-10">Ready to start your journey?</h1>
+        </div>
+        <button class=" bg-primary text-white text-black py-3 text-[21px] px-8 rounded-[30px] hover:bg-white transition ease-out"> <i class="fa-sharp fa-regular fa-download"></i> Download for Windows</button>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>

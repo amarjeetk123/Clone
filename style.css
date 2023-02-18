@@ -1,0 +1,8 @@
+.header{
+  
+ /* background: url(); */
+}
+.hover1:hover{
+    box-shadow: 1px 1px 10px black;
+    transition: .6s;
+}
