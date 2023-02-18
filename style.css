@@ -10,3 +10,30 @@
 li:hover{
     text-decoration: underline;
 }
+@media screen and (max-width:900px) {
+    .responsive-list{
+        padding-left: 40px;
+        padding-top: 70px;
+         position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0.1%;
+        left: 100%;
+        background-color:#ffffff;
+    }
+    .responsive-list li{
+        font-size: 18px;
+        width: 200px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        background-color: #f6f6f6;
+        color: #00b0f4;
+    }
+
+    
+}
+/* @media screen and (max-width:980px) {
+    .btn-group button{
+        width: 300px;
+    }
+} */
