@@ -1,4 +1,4 @@
-# Discord Clone 📖
+# Discord Clone 
 
 ![](https://img.shields.io/badge/iNeuron-red)
 ![](https://img.shields.io/badge/Hitesh%20Chaoudhry-LCO-g)
