@@ -15,20 +15,17 @@ downarrow.addEventListener("click" , () => {
   }
 } )
 cross.addEventListener("click" , () => {
-  if(cross.style.display !== 'none'){
+  
     cross.style.display = 'none'
     nav_list.style.left = '100%'
-  }
-  else{
+
+ 
     box.style.display = 'none'
-    
-  }
-  nav_list.style.left = '100%'
 } )
 three_line.addEventListener("click" , () => {
   if(cross.style.display === 'none'){
     cross.style.display = 'block'
-    nav_list.style.left = '60%'
+    nav_list.style.left = '30%'
   }
   else{
     cross.style.display = 'none'
